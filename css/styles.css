@@ -564,6 +564,7 @@ a {
 .span-checkbox {
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -607,13 +608,12 @@ a {
   margin-left: auto;
 }
 .footer-form-text {
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
   color: #ffffff;
-  margin-left: 16px;
 }
 .footer-form-hero {
   display: flex;
@@ -627,11 +627,10 @@ a {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  padding-left: 16px;
+  padding: 8px 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  margin-left: 16px;
 }
 .footer-sub-input::placeholder {
   color: #ffffff;
